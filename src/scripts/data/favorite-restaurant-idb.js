@@ -24,7 +24,7 @@ const FavoriteRestaurantIdb = {
   },
 
   async putRestaurant(restaurant) {
-    if (!restaurant.hasOwnProperty('id')) {
+    if (!restaurant.id) {
       return;
     }
 

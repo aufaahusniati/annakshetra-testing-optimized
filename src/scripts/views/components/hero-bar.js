@@ -57,6 +57,13 @@ class HeroBar extends HTMLElement {
           }
           
   
+            @media screen and (min-width: 320px) {
+              .hero img {
+                transform: translateX(-30px);
+                margin-top: -90%;
+              }
+            }
+
             @media screen and (min-width: 768px) {
               .hero img {
                 margin-top: -40%;
